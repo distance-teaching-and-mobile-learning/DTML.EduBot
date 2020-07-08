@@ -1,19 +1,11 @@
 ﻿namespace DTML.EduBot.Dialogs
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Collections.ObjectModel;
-    using System.Globalization;
-    using System.Linq;
-    using System.Threading;
-    using System.Web;
-    using System.Threading.Tasks;
+    using Extensions;
     using Microsoft.Bot.Builder.Dialogs;
     using Microsoft.Bot.Connector;
-    using DTML.EduBot.Common;
-    using DTML.EduBot.Constants;
-    using DTML.EduBot.UserData;
-    using Extensions;
+    using System;
+    using System.Threading;
+    using System.Threading.Tasks;
 
     [Serializable]
     public class RootDialog : IDialog<string>

@@ -23,6 +23,7 @@ namespace DTML.EduBot
         protected void Application_Error()
         {
             var e = Server.GetLastError();
+           
         }
 
         protected void Application_Start()
